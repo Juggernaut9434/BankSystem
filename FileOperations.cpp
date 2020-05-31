@@ -1,6 +1,7 @@
 //
 // basic file operations
 // https://www.w3schools.com/python/python_ref_file.asp
+// http://www.cppforschool.com/tutorial/files2.html
 //
 
 #include "pch.h"
