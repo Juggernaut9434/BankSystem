@@ -1,3 +1,10 @@
+# unwanted files
+Debug/
+*.vcxproj.*
+*.vcxproj
+*.log
+
+
 # Prerequisites
 *.d
 
