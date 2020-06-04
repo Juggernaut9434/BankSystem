@@ -206,7 +206,7 @@ void modify_record(int n)
 			// ios::beg (beginning of stream)
 			// ios:cur (current pos in stream)
 			// ios:end (end of stream)
-			int pos = -1 * sizeof(obj);
+			int pos = -1 * static_cast<int>(sizeof(obj));
 			file.seekp(pos, ios::cur);
 
 			file.write((char*)&obj, sizeof(obj));
